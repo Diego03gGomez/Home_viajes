@@ -437,6 +437,7 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 padding-top: 100px;
+display: none;
 /*display: flex;
 flex-direction: column;
 justify-content: center;
@@ -702,6 +703,19 @@ gap: 10px;
 }
 
 
+.nombre{
+    display: none;
+}
+
+
+.foto img{
+    margin: auto;
+width: 100%;
+}
+
+
+
+
 }
 
 
@@ -711,6 +725,10 @@ gap: 10px;
 @media (max-width: 400px){
     .des1{
         top: 30%;
+    }
+
+    .titulo_fondo3 h1{
+        font-size: 39px;
     }
 }
 
