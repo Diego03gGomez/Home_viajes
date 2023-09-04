@@ -437,7 +437,7 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 padding-top: 100px;
-display: none;
+
 /*display: flex;
 flex-direction: column;
 justify-content: center;
@@ -698,7 +698,8 @@ gap: 10px;
 }
 
 #fondo_input{
-    height: 70vh;
+    height: 80vh;
+    padding-top: 200px;
 
 }
 
