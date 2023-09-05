@@ -188,20 +188,40 @@ color: white;
 
 
 .des1 a{
-  
+    transition: all 0.50s;
     background-color: #ffaf19;
     border-radius: 5px;
     padding: 10px;
 color:#212529!important;
 font-weight: bold;
+cursor: pointer;
 }
+
+.naranja{
+    color: #ffaf19;
+}
+
+
+
+.des1 a:hover{
+    transition: all 0.50s;
+background-color: white;
+}
+
 
 /*ESTILOS PARA EL FONDO 2*/
 
 #fondo2{
     padding-top: 100px;
- 
 }
+
+.container, .container-lg, .container-md, .container-sm{
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+
 
 
 .view{
@@ -408,6 +428,7 @@ footer{
     top: -50px;
     z-index: 980;
     box-shadow: -1px 3px 13px 0px rgb(156 156 156 / 75%);
+    padding: 20px 10px;
 
 }
 
@@ -421,8 +442,9 @@ footer{
     text-align: center;
    background-color: #ffaf19;
    color: white;
-   padding: 20px 0;
+   /*padding: 20px 0;*/
    border-radius: 15px;
+   padding: 10px 0px;
   
   
 }
@@ -437,6 +459,7 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 padding-top: 100px;
+margin-top: 100px;
 
 /*display: flex;
 flex-direction: column;
@@ -579,6 +602,7 @@ align-items: center;*/
 .opciones{
   
     width: 90%;
+    top: 30px;
 }
 
 
@@ -714,7 +738,17 @@ gap: 10px;
 width: 100%;
 }
 
+.des1{
+    top: 30%;
+}
 
+.opciones{
+    padding: 10px 20px;
+}
+
+.opcion2{
+    padding: 0;
+}
 
 
 }
