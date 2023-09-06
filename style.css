@@ -722,8 +722,8 @@ gap: 10px;
 }
 
 #fondo_input{
-    height: 80vh;
-    padding-top: 200px;
+    height: 100vh;
+    padding-top: 100px;
 
 }
 
@@ -768,3 +768,24 @@ width: 100%;
 }
 
 
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px){
+
+.des1{
+    top: 23%;
+}
+
+.des1 h1{
+    font-size: 40px;
+}
+
+
+}
