@@ -526,6 +526,12 @@ align-items: center;*/
 }
 
 
+.cont_input1{
+ 
+}
+
+
+
 
 
 
@@ -623,6 +629,11 @@ align-items: center;*/
 .cont_input input{
     width: 90%;
 }
+
+#fondo_input{
+    height: 81vh;
+}
+
 
 
 }
