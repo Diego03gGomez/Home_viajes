@@ -467,7 +467,7 @@ footer{
 /*ESTILOS PARA EL FONDO INPUT*/
 
 #fondo_input{
-    background-image: url(https://www.turio-wp.egenslab.com/wp-content/uploads/2022/11/Newsletter-Image.jpg);
+    background-image: url(/imagenes/playa.jpg);
 height: 60vh;
 background-size: cover;
 background-position: center;
